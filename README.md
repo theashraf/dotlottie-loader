@@ -12,7 +12,7 @@ module.exports = {
       {
         test: /.lottie$/,
         type: 'javascript/auto',
-        use: ['@dotlottie/webpack'],
+        use: 'dotlottie-loader',
       },
     ],
   },
@@ -30,5 +30,6 @@ export default () => <Animation />;
 ## Development
 
 ```sh
-yarn start && cd sandbox && yarn start
+yarn start
+yarn sandbox
 ```
