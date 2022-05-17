@@ -2,6 +2,8 @@
 
 Webpack loader for dotlottie animations
 
+![Alt Text](./example.gif)
+
 ## Usage
 
 ```js
