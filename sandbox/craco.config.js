@@ -6,7 +6,7 @@ module.exports = {
       config.resolveLoader = {
         ...config.resolveLoader,
         alias: {
-          'dotlottie-loader': path.resolve('../dist'),
+          'dotlottie-loader': path.resolve(__dirname, '../lib/index.js'),
         },
       };
 
